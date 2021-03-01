@@ -1,0 +1,3 @@
+This is what I did on the group project
+I created this and this into the java project
+Also I found a solution about the issue you found

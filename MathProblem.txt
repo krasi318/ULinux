@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	float a,b,x,D,x1,x2;
+
+	printf("a= ");
+	scanf("%f" , &a);
+
+	printf("b= ");
+	scanf("%f" , &b);
+
+	printf("c= ");
+	scanf("%f" , &c);
+
+	D = (b*2) - 4*a*c;
+	if (D < 0)
+	{
+	printf("Няма реални корени/n");
+ }
+	else if (D = 0)
+	{
+	x1= -b/2*a;
+	printf("X1 = " x1/n );
+	printf("X2 = " x1/n );
+
+     }
+	else (D > 0)
+	{
+	x1= -b+ sqrt(D) / 2*a;
+	x2= -b - sqrt(D) / 2*a;
+	printf("x1= " x1/n);
+	printf("x2= " x2/n);
+    }
+}
